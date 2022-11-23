@@ -25,12 +25,12 @@ const method = 'GET'
 
 export const qMangaInfo: SourceInfo = {
     version: '2.0.1',
-    name: 'qManga',
+    name: 'qmanga',
     icon: 'icon.png',
     author: 'JustaTama',
     authorWebsite: 'https://github.com/JustaTama',
     description: 'Extension that pulls manga from qManga',
-    websiteBaseURL: `https://qmanga4.com/`,
+    websiteBaseURL: `https://qmanga4.net/`,
     contentRating: ContentRating.MATURE,
     sourceTags: [
         {
@@ -51,7 +51,7 @@ export class qManga extends Source {
                 request.headers = {
                     ...(request.headers ?? {}),
                     ...{
-                        'referer': 'https://qmanga4.com/'
+                        'referer': 'https://qmanga4.net/'
                     }
                 }
 
@@ -175,7 +175,7 @@ export class qManga extends Source {
 
         //New Updates
         let request = createRequestObject({
-            url: 'https://qmanga4.com/de-nghi/pho-bien/moi-nhat',
+            url: 'https://qmanga4.net/de-nghi/pho-bien/moi-nhat',
             method: "GET",
         });
         let data = await this.requestManager.schedule(request, 1);
@@ -188,7 +188,7 @@ export class qManga extends Source {
             let subtitle = $(`.chapter-commic-tab > a`, element).text().trim();
             newUpdatedItems.push(createMangaTile({
                 id: id ?? "",
-                image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.com/image/defaul-load.png")),
+                image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.net/image/defaul-load.png")),
                 title: createIconText({ text: title }),
                 subtitleText: createIconText({ text: subtitle }),
             }))
@@ -198,7 +198,7 @@ export class qManga extends Source {
 
         //hot
         request = createRequestObject({
-            url: 'https://qmanga4.com/danh-muc/noi-bat',
+            url: 'https://qmanga4.net/danh-muc/noi-bat',
             method: "GET",
         });
         let hotItems: MangaTile[] = [];
@@ -211,7 +211,7 @@ export class qManga extends Source {
             let subtitle = $(`.chapter-commic-tab > a`, element).text().trim();
             hotItems.push(createMangaTile({
                 id: id ?? "",
-                image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.com/image/defaul-load.png")),
+                image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.net/image/defaul-load.png")),
                 title: createIconText({ text: title }),
                 subtitleText: createIconText({ text: subtitle }),
             }))
@@ -221,7 +221,7 @@ export class qManga extends Source {
 
         //view
         request = createRequestObject({
-            url: 'https://qmanga4.com/danh-muc/pho-bien',
+            url: 'https://qmanga4.net/danh-muc/pho-bien',
             method: "GET",
         });
         let viewItems: MangaTile[] = [];
@@ -234,7 +234,7 @@ export class qManga extends Source {
             let subtitle = $(`.chapter-commic-tab > a`, element).text().trim();
             viewItems.push(createMangaTile({
                 id: id ?? "",
-                image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.com/image/defaul-load.png")),
+                image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.net/image/defaul-load.png")),
                 title: createIconText({ text: title }),
                 subtitleText: createIconText({ text: subtitle }),
             }))
@@ -244,7 +244,7 @@ export class qManga extends Source {
 
         //featured
         request = createRequestObject({
-            url: 'https://qmanga4.com/',
+            url: 'https://qmanga4.net/',
             method: "GET",
         });
         let featuredItems: MangaTile[] = [];
@@ -257,7 +257,7 @@ export class qManga extends Source {
             // let subtitle = $(`.chapter-commic-tab > a`, element).text().trim();
             featuredItems.push(createMangaTile({
                 id: id ?? "",
-                image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.com/image/defaul-load.png")),
+                image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.net/image/defaul-load.png")),
                 title: createIconText({ text: title ?? "" }),
                 // subtitleText: createIconText({ text: subtitle }),
             }))
@@ -272,15 +272,15 @@ export class qManga extends Source {
         let select = 1;
         switch (homepageSectionId) {
             case "new_updated":
-                url = `https://qmanga4.com/de-nghi/pho-bien/moi-nhat?page=${page}`;
+                url = `https://qmanga4.net/de-nghi/pho-bien/moi-nhat?page=${page}`;
                 select = 1;
                 break;
             case "hot":
-                url = `https://qmanga4.com/danh-muc/noi-bat?page=${page}`;
+                url = `https://qmanga4.net/danh-muc/noi-bat?page=${page}`;
                 select = 2;
                 break;
             case "view":
-                url = `https://qmanga4.com/danh-muc/pho-bien?page=${page}`;
+                url = `https://qmanga4.net/danh-muc/pho-bien?page=${page}`;
                 select = 3;
                 break;
             default:
@@ -332,9 +332,9 @@ export class qManga extends Source {
             }
         })
         const request = createRequestObject({
-            url: query.title ? encodeURI(`https://qmanga4.com/tim-kiem?q=${query.title}&page=${page}`) :
+            url: query.title ? encodeURI(`https://qmanga4.net/tim-kiem?q=${query.title}&page=${page}`) :
                 (tags[0].includes('http') ? (tags[0] + `?page=${page}`) :
-                    encodeURI(`https://qmanga4.com/danh-muc/${search.cate}?page=${page}`)),
+                    encodeURI(`https://qmanga4.net/danh-muc/${search.cate}?page=${page}`)),
             method: "GET",
         });
 
@@ -354,15 +354,15 @@ export class qManga extends Source {
         const tags: Tag[] = [];
         const tags2: Tag[] = [
             {
-                id: 'https://qmanga4.com/bang-xep-hang/top-ngay',
+                id: 'https://qmanga4.net/bang-xep-hang/top-ngay',
                 label: 'Top ngày'
             },
             {
-                id: 'https://qmanga4.com/bang-xep-hang/top-tuan',
+                id: 'https://qmanga4.net/bang-xep-hang/top-tuan',
                 label: 'Top tuần'
             },
             {
-                id: 'https://qmanga4.com/bang-xep-hang/top-thang',
+                id: 'https://qmanga4.net/bang-xep-hang/top-thang',
                 label: 'Top tháng'
             }
         ];
@@ -395,7 +395,7 @@ export class qManga extends Source {
             }
         ];
 
-        const url = `https://qmanga4.com/`
+        const url = `https://qmanga4.net/`
         const request = createRequestObject({
             url: url,
             method: "GET",

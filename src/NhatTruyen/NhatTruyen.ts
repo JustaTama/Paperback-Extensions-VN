@@ -17,7 +17,7 @@ import {
 } from "paperback-extensions-common"
 import { Parser } from './NhatTruyenParser';
 
-const DOMAIN = 'http://nhattruyenin.com/'
+const DOMAIN = 'http://nhattruyenon.com/'
 
 export const isLastPage = ($: CheerioStatic): boolean => {
     const current = $('ul.pagination > li.active > a').text();
@@ -30,7 +30,7 @@ export const isLastPage = ($: CheerioStatic): boolean => {
     return true;
 }
 
-export const NhatTruyenInfo: SourceInfo = {
+export const nhattruyenonfo: SourceInfo = {
     version: '3.0.2',
     name: 'NhatTruyen',
     icon: 'icon.png',

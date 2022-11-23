@@ -22,13 +22,13 @@ export const parseSearch = ($: CheerioStatic, query: SearchRequest, tags: string
         if (tags[0].includes('http')) {
             for (const element of $('li', '.detail-bxh-ul').toArray()) {
                 let title = $('.title-commic-tab', element).text().trim();
-                let image = $('.image-commic-bxh img', element).attr('data-src') ?? "https://qmanga4.com/image/defaul-load.png";
+                let image = $('.image-commic-bxh img', element).attr('data-src') ?? "https://qmanga4.net/image/defaul-load.png";
                 let id = $('.image-commic-bxh > a', element).first().attr('href');
                 let subtitle = $(`.chapter-commic-tab > a`, element).text().trim();
                 if (title === '') continue
                 manga.push(createMangaTile({
                     id: id ?? "",
-                    image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.com/image/defaul-load.png")),
+                    image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.net/image/defaul-load.png")),
                     title: createIconText({ text: title }),
                     subtitleText: createIconText({ text: subtitle }),
                 }))
@@ -36,13 +36,13 @@ export const parseSearch = ($: CheerioStatic, query: SearchRequest, tags: string
         } else {
             for (const element of $('li', '.content-tab').toArray()) {
                 let title = $('.title-commic-tab', element).text().trim();
-                let image = $('.image-commic-tab img', element).attr('data-src') ?? "https://qmanga4.com/image/defaul-load.png";
+                let image = $('.image-commic-tab img', element).attr('data-src') ?? "https://qmanga4.net/image/defaul-load.png";
                 let id = $('.image-commic-tab > a', element).first().attr('href');
                 let subtitle = $(`.chapter-commic-tab > a`, element).text().trim();
                 if (title === '') continue
                 manga.push(createMangaTile({
                     id: id ?? "",
-                    image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.com/image/defaul-load.png")),
+                    image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.net/image/defaul-load.png")),
                     title: createIconText({ text: title }),
                     subtitleText: createIconText({ text: subtitle }),
                 }))
@@ -57,7 +57,7 @@ export const parseSearch = ($: CheerioStatic, query: SearchRequest, tags: string
             if (title === '') continue
             manga.push(createMangaTile({
                 id: id ?? "",
-                image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.com/image/defaul-load.png")),
+                image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.net/image/defaul-load.png")),
                 title: createIconText({ text: title }),
                 subtitleText: createIconText({ text: subtitle }),
             }))
@@ -77,7 +77,7 @@ export const parseViewMore = ($: CheerioStatic, select: any): MangaTile[] => {
             if (title === '') continue
             manga.push(createMangaTile({
                 id: id ?? "",
-                image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.com/image/defaul-load.png")),
+                image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.net/image/defaul-load.png")),
                 title: createIconText({ text: title }),
                 subtitleText: createIconText({ text: subtitle }),
             }))
@@ -91,7 +91,7 @@ export const parseViewMore = ($: CheerioStatic, select: any): MangaTile[] => {
             if (title === '') continue
             manga.push(createMangaTile({
                 id: id ?? "",
-                image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.com/image/defaul-load.png")),
+                image: decodeHTMLEntity(encodeURI(image ?? "https://qmanga4.net/image/defaul-load.png")),
                 title: createIconText({ text: title }),
                 subtitleText: createIconText({ text: subtitle }),
             }))
