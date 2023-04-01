@@ -15,7 +15,7 @@
     "deploy2": "gh-pages -d bundles",
     "test2": "npx paperback test"
   },
-  "author": "Huynhzip3",
+  "author": "JustaTama",
   "license": "MIT",
   "dependencies": {
     "chai": "^4.3.4",
