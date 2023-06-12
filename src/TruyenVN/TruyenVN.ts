@@ -20,7 +20,7 @@ import {
 } from "paperback-extensions-common"
 import { parseSearch, isLastPage, parseViewMore, decodeHTMLEntity } from "./TruyenVNParser"
 
-const DOMAIN = 'https://truyenvn.vip/'
+const DOMAIN = 'https://truyenvnmoi.com/'
 const method = 'GET'
 
 export const TruyenVNInfo: SourceInfo = {
