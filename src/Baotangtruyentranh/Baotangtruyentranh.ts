@@ -21,7 +21,7 @@ import {
 
 import { parseSearch, parseViewMore, isLastPage, decodeHTMLEntity } from "./BaotangtruyentranhParser"
 
-const DOMAIN = 'https://baotangtruyennet.com/'
+const DOMAIN = 'https://baotangtruyengo.com/'
 const method = 'GET'
 
 export const BaotangtruyentranhInfo: SourceInfo = {
