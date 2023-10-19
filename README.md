@@ -16,4 +16,4 @@ https://JustaTama.github.io/Paperback-Extensions-VN/
 |   5   | HentaiVN                  | https://hentaivn.autos                     |
 |   6   | TruyentranhLH             | https://truyentranhlh.net                  |
 |   7   | Truyentranhtuan           | http://truyentuan.com                      |
-|   8   | TruyenVN                  | https://truyenvn.vip                       |
+|   8   | TruyenVN                  | https://truyenvnhay.com                    |
