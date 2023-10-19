@@ -21,7 +21,7 @@ import {
 
 import { parseSearch, parseViewMore, isLastPage, decodeHTMLEntity } from "./TruyentranhtuanParser"
 
-const DOMAIN = 'http://truyentranhtuan.com/'
+const DOMAIN = 'http://truyentuan.com/'
 const method = 'GET'
 
 export const TruyentranhtuanInfo: SourceInfo = {
@@ -269,7 +269,7 @@ export class Truyentranhtuan extends Source {
         let url = '';
         switch (homepageSectionId) {
             case "new_updated":
-                url = `http://truyentranhtuan.com/page/${page}/`;
+                url = `http://truyentuan.com/page/${page}/`;
                 break;
             default:
                 return Promise.resolve(createPagedResults({ results: [] }))
@@ -333,175 +333,175 @@ export class Truyentranhtuan extends Source {
     async getSearchTags(): Promise<TagSection[]> {
         const tags: Tag[] = [
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen",
+                "id": "http://truyentuan.com//danh-sach-truyen",
                 "label": "Tất cả"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/top/top-50",
+                "id": "http://truyentuan.com//danh-sach-truyen/top/top-50",
                 "label": "Top 50"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/trang-thai/dang-tien-hanh",
+                "id": "http://truyentuan.com//danh-sach-truyen/trang-thai/dang-tien-hanh",
                 "label": "Đang tiến hành"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/trang-thai/tam-dung",
+                "id": "http://truyentuan.com//danh-sach-truyen/trang-thai/tam-dung",
                 "label": "Tạm ngừng"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/trang-thai/hoan-thanh/",
+                "id": "http://truyentuan.com//danh-sach-truyen/trang-thai/hoan-thanh/",
                 "label": "Hoàn thành"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/4-koma",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/4-koma",
                 "label": "4-koma"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/action",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/action",
                 "label": "Action"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/adventure",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/adventure",
                 "label": "Adventure"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/anime",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/anime",
                 "label": "Anime"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/comedy",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/comedy",
                 "label": "Comedy"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/comic",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/comic",
                 "label": "Comic"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/drama",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/drama",
                 "label": "Drama"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/ecchi-2",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/ecchi-2",
                 "label": "ecchi"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/fantasy",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/fantasy",
                 "label": "Fantasy"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/gender-bender",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/gender-bender",
                 "label": "Gender Bender"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/historical",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/historical",
                 "label": "Historical"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/horror",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/horror",
                 "label": "Horror"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/josei",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/josei",
                 "label": "Josei"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/live-action",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/live-action",
                 "label": "Live Action"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/manhua",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/manhua",
                 "label": "Manhua"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/manhwa",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/manhwa",
                 "label": "Manhwa"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/martial-arts",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/martial-arts",
                 "label": "Martial Arts"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/mature-2",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/mature-2",
                 "label": "Mature"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/mecha",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/mecha",
                 "label": "Mecha"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/mystery",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/mystery",
                 "label": "Mystery"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/one-shot",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/one-shot",
                 "label": "One Shot"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/psychological",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/psychological",
                 "label": "Psychological"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/romance",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/romance",
                 "label": "Romance"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/school-life",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/school-life",
                 "label": "School Life"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/sci-fi",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/sci-fi",
                 "label": "Sci-fi"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/seinei",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/seinei",
                 "label": "Seinen"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/shoujo",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/shoujo",
                 "label": "Shoujo"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/shoujo-ai-2",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/shoujo-ai-2",
                 "label": "Shoujo Ai"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/shounen",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/shounen",
                 "label": "Shounen"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/slice-of-life",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/slice-of-life",
                 "label": "Slice of Life"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/smut",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/smut",
                 "label": "Smut"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/sports",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/sports",
                 "label": "Sports"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/supernatural",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/supernatural",
                 "label": "Supernatural"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/tragedy",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/tragedy",
                 "label": "Tragedy"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/truyen-scan",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/truyen-scan",
                 "label": "Truyện scan"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/truyen-tranh-viet-nam",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/truyen-tranh-viet-nam",
                 "label": "Truyện tranh Việt Nam"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/webtoon",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/webtoon",
                 "label": "Webtoon"
             },
             {
-                "id": "http://truyentranhtuan.com//danh-sach-truyen/the-loai/yuri",
+                "id": "http://truyentuan.com//danh-sach-truyen/the-loai/yuri",
                 "label": "Yuri"
             }
         ];
