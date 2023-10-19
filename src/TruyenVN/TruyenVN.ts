@@ -25,7 +25,7 @@ import {
   decodeHTMLEntity,
 } from "./TruyenVNParser";
 
-const DOMAIN = "https://truyenvnhot.net/";
+const DOMAIN = "https://truyenvnhay.com/";
 const method = "GET";
 
 export const TruyenVNInfo: SourceInfo = {
@@ -270,7 +270,7 @@ export class TruyenVN extends Source {
     //New Updates
     url = "";
     request = createRequestObject({
-      url: "https://truyenvnhot.net/danh-sach-truyen",
+      url: "https://truyenvnhay.com/danh-sach-truyen",
       method: "GET",
     });
     let newUpdatedItems: MangaTile[] = [];
@@ -301,7 +301,7 @@ export class TruyenVN extends Source {
     //New Added
     url = DOMAIN;
     request = createRequestObject({
-      url: "https://truyenvnhot.net/truyen-hoan-thanh",
+      url: "https://truyenvnhay.com/truyen-hoan-thanh",
       method: "GET",
     });
     let newAddItems: MangaTile[] = [];
@@ -339,10 +339,10 @@ export class TruyenVN extends Source {
     let url = "";
     switch (homepageSectionId) {
       case "new_updated":
-        url = `https://truyenvnhot.net/danh-sach-truyen/page/${page}`;
+        url = `https://truyenvnhay.com/danh-sach-truyen/page/${page}`;
         break;
       case "new_added":
-        url = `https://truyenvnhot.net/truyen-hoan-thanh/page/${page}`;
+        url = `https://truyenvnhay.com/truyen-hoan-thanh/page/${page}`;
         break;
       default:
         return Promise.resolve(createPagedResults({ results: [] }));
@@ -378,7 +378,7 @@ export class TruyenVN extends Source {
     search.genres = tags[0];
     var url = "";
     if (search.name) {
-      url = `https://truyenvnhot.net/danh-sach-truyen/page/${page}?q=${search.name}`;
+      url = `https://truyenvnhay.com/danh-sach-truyen/page/${page}?q=${search.name}`;
     } else {
       url = search.genres + `/page/${page}`;
     }
@@ -403,7 +403,7 @@ export class TruyenVN extends Source {
   async getSearchTags(): Promise<TagSection[]> {
     const tags: Tag[] = [];
     const request = createRequestObject({
-      url: "https://truyenvnhot.net/the-loai-truyen",
+      url: "https://truyenvnhay.com/the-loai-truyen",
       method: "GET",
     });
 
@@ -417,23 +417,23 @@ export class TruyenVN extends Source {
     }
     const tags1: Tag[] = [
       {
-        id: "https://truyenvnhot.net/truyen-hot",
+        id: "https://truyenvnhay.com/truyen-hot",
         label: "Top All",
       },
       {
-        id: "https://truyenvnhot.net/top-ngay",
+        id: "https://truyenvnhay.com/top-ngay",
         label: "Top Ngày",
       },
       {
-        id: "https://truyenvnhot.net/top-tuan",
+        id: "https://truyenvnhay.com/top-tuan",
         label: "Top Tuần",
       },
       {
-        id: "https://truyenvnhot.net/top-thang",
+        id: "https://truyenvnhay.com/top-thang",
         label: "Top Tháng",
       },
       {
-        id: "https://truyenvnhot.net/top-nam",
+        id: "https://truyenvnhay.com/top-nam",
         label: "Top Năm",
       },
     ];
