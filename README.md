@@ -18,3 +18,8 @@ Khi nhấn vào sẽ tự chuyển tiếp qua ứng dụng Paperback.
 |   4   | HentaiVN                  | https://hentaivn.autos                     |
 |   5   | TruyentranhLH             | https://truyentranhlh.net                  |
 |   6   | TruyenVN                  | https://truyenvnhay.com                    |
+|   7   | SayHentai                 | https://sayhentai.fun                      |
+|   8   | LxManga                   | https://lxmanga.net                        |
+|   9   | BaoTangTruyen             | https://baotangtruyen4.com                 |
+|   10  | Nettruyen                 | https://www.nettruyenus.com/               |
+
