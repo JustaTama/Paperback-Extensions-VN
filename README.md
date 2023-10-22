@@ -12,14 +12,16 @@ Khi nhấn vào sẽ tự chuyển tiếp qua ứng dụng Paperback.
 
 |STT    | Name                      | Source URL                                 |
 | ----- | ------------------------- | ------------------------------------------ |
-|   1   | Blogtruyen                | https://blogtruyen.vn                      |
-|   2   | DocTruyen3Q               | https://doctruyen3qmax.com                 |
-|   3   | HentaiVip                 | https://hentaivnmoi.net                    |
-|   4   | HentaiVN                  | https://hentaivn.autos                     |
-|   5   | TruyentranhLH             | https://truyentranhlh.net                  |
-|   6   | TruyenVN                  | https://truyenvnhay.com                    |
-|   7   | SayHentai                 | https://sayhentai.fun                      |
-|   8   | LxManga                   | https://lxmanga.net                        |
-|   9   | BaoTangTruyen             | https://baotangtruyen4.com                 |
-|   10  | Nettruyen                 | https://www.nettruyenus.com/               |
+|   1   | BaoTangTruyen             | https://baotangtruyen4.com                 |
+|   2   | Blogtruyen                | https://blogtruyen.vn                      |
+|   3   | DocTruyen3Q               | https://doctruyen3qmax.com                 |
+|   4   | HentaiVip                 | https://hentaivnmoi.net                    |
+|   5   | HentaiVN                  | https://hentaivn.autos                     |
+|   6   | LxManga                   | https://lxmanga.net                        |
+|   7   | Nettruyen                 | https://www.nettruyenus.com                |
+|   8   | SayHentai                 | https://sayhentai.fun                      |
+|   9   | TruyentranhLH             | https://truyentranhlh.net                  |
+|   10  | TruyenVN                  | https://truyenvnhay.com                    |
+|   11  | Yurineko                  | https://yurineko.net                       |
+
 
