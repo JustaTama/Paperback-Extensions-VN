@@ -1,0 +1,332 @@
+[
+  {
+    "Id": "1",
+    "Name": "Mature",
+    "Description": ""
+  },
+  {
+    "Id": "2",
+    "Name": "Manhwa",
+    "Description": ""
+  },
+  {
+    "Id": "3",
+    "Name": "Group",
+    "Description": ""
+  },
+  {
+    "Id": "4",
+    "Name": "Housewife",
+    "Description": ""
+  },
+  {
+    "Id": "5",
+    "Name": "NTR",
+    "Description": ""
+  },
+  {
+    "Id": "6",
+    "Name": "Adult",
+    "Description": ""
+  },
+  {
+    "Id": "7",
+    "Name": "Series",
+    "Description": ""
+  },
+  {
+    "Id": "8",
+    "Name": "Complete",
+    "Description": ""
+  },
+  {
+    "Id": "9",
+    "Name": "Ngực Lớn",
+    "Description": ""
+  },
+  {
+    "Id": "10",
+    "Name": "Lãng Mạn",
+    "Description": ""
+  },
+  {
+    "Id": "11",
+    "Name": "Truyện Màu",
+    "Description": ""
+  },
+  {
+    "Id": "12",
+    "Name": "Mind Break",
+    "Description": ""
+  },
+  {
+    "Id": "13",
+    "Name": "Mắt Kính",
+    "Description": ""
+  },
+  {
+    "Id": "14",
+    "Name": "Ngực Nhỏ",
+    "Description": ""
+  },
+  {
+    "Id": "15",
+    "Name": "Fantasy",
+    "Description": ""
+  },
+  {
+    "Id": "16",
+    "Name": "Ecchi",
+    "Description": ""
+  },
+  {
+    "Id": "17",
+    "Name": "Bạo Dâm",
+    "Description": ""
+  },
+  {
+    "Id": "18",
+    "Name": "Harem",
+    "Description": ""
+  },
+  {
+    "Id": "19",
+    "Name": "Hài Hước",
+    "Description": ""
+  },
+  {
+    "Id": "20",
+    "Name": "Cosplay",
+    "Description": ""
+  },
+  {
+    "Id": "21",
+    "Name": "Hầu Gái",
+    "Description": ""
+  },
+  {
+    "Id": "22",
+    "Name": "Loli",
+    "Description": ""
+  },
+  {
+    "Id": "23",
+    "Name": "Shota",
+    "Description": ""
+  },
+  {
+    "Id": "24",
+    "Name": "Gangbang",
+    "Description": ""
+  },
+  {
+    "Id": "25",
+    "Name": "Doujinshi",
+    "Description": ""
+  },
+  {
+    "Id": "26",
+    "Name": "Guro",
+    "Description": ""
+  },
+  {
+    "Id": "27",
+    "Name": "Virgin",
+    "Description": ""
+  },
+  {
+    "Id": "28",
+    "Name": "OneShot",
+    "Description": ""
+  },
+  {
+    "Id": "29",
+    "Name": "Chơi Hai Lỗ",
+    "Description": ""
+  },
+  {
+    "Id": "30",
+    "Name": "Hậu Môn",
+    "Description": ""
+  },
+  {
+    "Id": "31",
+    "Name": "Nữ Sinh",
+    "Description": ""
+  },
+  {
+    "Id": "32",
+    "Name": "Mang Thai",
+    "Description": ""
+  },
+  {
+    "Id": "33",
+    "Name": "Giáo Viên",
+    "Description": ""
+  },
+  {
+    "Id": "34",
+    "Name": "Loạn Luân",
+    "Description": ""
+  },
+  {
+    "Id": "35",
+    "Name": "Truyện Không Che",
+    "Description": ""
+  },
+  {
+    "Id": "36",
+    "Name": "Futanari",
+    "Description": ""
+  },
+  {
+    "Id": "37",
+    "Name": "Yuri",
+    "Description": ""
+  },
+  {
+    "Id": "38",
+    "Name": "Nô Lệ",
+    "Description": ""
+  },
+  {
+    "Id": "39",
+    "Name": "Đồ Bơi",
+    "Description": ""
+  },
+  {
+    "Id": "40",
+    "Name": "Thể Thao",
+    "Description": ""
+  },
+  {
+    "Id": "41",
+    "Name": "Truyện Ngắn",
+    "Description": ""
+  },
+  {
+    "Id": "42",
+    "Name": "Lão Gìa Dâm",
+    "Description": ""
+  },
+  {
+    "Id": "43",
+    "Name": "Hãm Hiếp",
+    "Description": ""
+  },
+  {
+    "Id": "44",
+    "Name": "Monster Girl",
+    "Description": ""
+  },
+  {
+    "Id": "45",
+    "Name": "Y Tá",
+    "Description": ""
+  },
+  {
+    "Id": "46",
+    "Name": "Supernatural",
+    "Description": ""
+  },
+  {
+    "Id": "47",
+    "Name": "3D",
+    "Description": ""
+  },
+  {
+    "Id": "48",
+    "Name": "Truyện Comic",
+    "Description": ""
+  },
+  {
+    "Id": "49",
+    "Name": "Animal girl",
+    "Description": ""
+  },
+  {
+    "Id": "50",
+    "Name": "Thú Vật",
+    "Description": ""
+  },
+  {
+    "Id": "51",
+    "Name": "Kinh Dị",
+    "Description": ""
+  },
+  {
+    "Id": "52",
+    "Name": "Quái Vật",
+    "Description": ""
+  },
+  {
+    "Id": "53",
+    "Name": "Xúc Tua",
+    "Description": ""
+  },
+  {
+    "Id": "54",
+    "Name": "Gender Bender",
+    "Description": ""
+  },
+  {
+    "Id": "55",
+    "Name": "Yaoi",
+    "Description": ""
+  },
+  {
+    "Id": "56",
+    "Name": "CG",
+    "Description": ""
+  },
+  {
+    "Id": "57",
+    "Name": "Trap",
+    "Description": ""
+  },
+  {
+    "Id": "58",
+    "Name": "Furry",
+    "Description": ""
+  },
+  {
+    "Id": "59",
+    "Name": "Mind Control",
+    "Description": ""
+  },
+  {
+    "Id": "60",
+    "Name": "Elf",
+    "Description": ""
+  },
+  {
+    "Id": "61",
+    "Name": "Côn Trùng",
+    "Description": ""
+  },
+  {
+    "Id": "62",
+    "Name": "Kogal",
+    "Description": ""
+  },
+  {
+    "Id": "63",
+    "Name": "Artist",
+    "Description": ""
+  },
+  {
+    "Id": "64",
+    "Name": "Scat",
+    "Description": ""
+  },
+  {
+    "Id": "65",
+    "Name": "Milf",
+    "Description": ""
+  },
+  {
+    "Id": "66",
+    "Name": "LXHENTAI",
+    "Description": ""
+  }
+]

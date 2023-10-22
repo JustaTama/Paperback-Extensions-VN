@@ -1,7 +1,7 @@
 {
-  "name": "extensions-mt",
+  "name": "extensions-vn",
   "version": "2.0.0",
-  "homepage": "https://github.com/JustaTama/Extensions-MT/",
+  "homepage": "https://github.com/JustaTama/Paperback-Extensions-VN",
   "description": "Vietnamese sources for Paperback",
   "scripts": {
     "start": "tsc && node dist/api.js",

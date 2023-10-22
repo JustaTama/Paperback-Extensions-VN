@@ -1,6 +1,5 @@
 import {
     BadgeColor,
-    ChapterDetails,
     ContentRating,
     SourceInfo,
     SourceIntents
@@ -8,47 +7,43 @@ import {
 import {
     getExportVersion,
     Main
-} from '../Master'
+} from '../Main'
 
-const HOST = 'HentaiVN'
+const HOST = 'Yurineko'
 import tags from './tags.json'
 
-export const HentaiVNInfo: SourceInfo = {
+export const YurinekoInfo: SourceInfo = {
     description: '',
     icon: 'icon.png',
     websiteBaseURL: '',
-    version: getExportVersion('0.0.4'),
-    name: 'HentaiVN',
+    version: getExportVersion('0.0.3'),
+    name: 'Yurineko',
     language: 'vi',
-    author: 'JustaTama',
+    author: 'Hoang3409',
     contentRating: ContentRating.ADULT,
     sourceTags: [
         {
             text: '18+',
             type: BadgeColor.RED
+        },
+        {
+            text: '16+',
+            type: BadgeColor.GREEN
         }
     ],
     intents: SourceIntents.HOMEPAGE_SECTIONS | SourceIntents.MANGA_CHAPTERS
 }
 
-const Domain = 'hentaivn.tv'
+const Domain = 'yurineko.net'
 
-export class HentaiVN extends Main {
+export class Yurineko extends Main {
     Host = HOST
     Tags = tags
 
-    HostDomain = `https://${Domain}.tv/`
+    HostDomain = `https://${Domain}/`
     UseId = true
-    
+
     SearchWithGenres = true
     SearchWithNotGenres = false
     SearchWithTitleAndGenre = true
-
-    override async getChapterDetails(mangaId: string, chapterId: string): Promise<ChapterDetails> {
-        const data = await super.getChapterDetails(mangaId, chapterId)
-        for (let img in data) {
-            img = img.replace('hhentai.net', Domain)
-        }
-        return data
-    }
 }
