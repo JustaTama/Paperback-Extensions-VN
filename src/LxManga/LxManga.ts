@@ -7,7 +7,7 @@ import {
 import {
     getExportVersion,
     Main
-} from '../Master'
+} from '../Main'
 
 const HOST = 'LxManga'
 import tags from './tags.json'

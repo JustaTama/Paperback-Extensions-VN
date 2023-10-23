@@ -7,7 +7,7 @@ import {
 import {
     getExportVersion,
     Main
-} from '../Master'
+} from '../Main'
 
 const HOST = 'SayHentai'
 const Domain = 'sayhentai.fun'

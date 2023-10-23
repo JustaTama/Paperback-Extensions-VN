@@ -16,7 +16,7 @@ import {
     DOMAIN,
     getExportVersion,
     Main
-} from '../Master'
+} from '../Main'
 import {
     clearSessionToken,
     clearUserCredentials,

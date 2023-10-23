@@ -8,7 +8,7 @@ import {
 import {
     getExportVersion,
     Main
-} from '../Master'
+} from '../Main'
 
 const HOST = 'HentaiVN'
 import tags from './tags.json'
