@@ -19,7 +19,7 @@ export const YurinekoInfo: SourceInfo = {
     version: getExportVersion('0.0.3'),
     name: 'Yurineko',
     language: 'vi',
-    author: 'Hoang3409',
+    author: 'JustaTama',
     contentRating: ContentRating.ADULT,
     sourceTags: [
         {
