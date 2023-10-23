@@ -19,9 +19,8 @@ Khi nhấn vào sẽ tự chuyển tiếp qua ứng dụng Paperback.
 |   5   | HentaiVN                  | https://hentaivn.autos                     |
 |   6   | LxManga                   | https://lxmanga.net                        |
 |   7   | Nettruyen                 | https://www.nettruyenus.com                |
-|   8   | SayHentai                 | https://sayhentai.fun                      |
-|   9   | TruyentranhLH             | https://truyentranhlh.net                  |
-|   10  | TruyenVN                  | https://truyenvnhay.com                    |
-|   11  | Yurineko                  | https://yurineko.net                       |
-
-
+|   8   | Nhattruyen                | https://nhattruyenplus.com                 |
+|   9   | SayHentai                 | https://sayhentai.fun                      |
+|   10  | TruyentranhLH             | https://truyentranhlh.net                  |
+|   11  | TruyenVN                  | https://truyenvnhay.com                    |
+|   12  | Yurineko                  | https://yurineko.net                       |
